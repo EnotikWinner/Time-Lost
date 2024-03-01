@@ -1336,3 +1336,214 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 7.54 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.948 seconds
+Domain Reload Profiling: 5913ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (641ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1001ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4817 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5450.
+Memory consumption went from 177.0 MB to 176.3 MB.
+Total: 6.118500 ms (FindLiveObjects: 0.533800 ms CreateObjectMapping: 0.589400 ms MarkObjects: 4.477300 ms  DeleteObjects: 0.516600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7736.793592 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(d5478e07dfc484d41865e72becb918e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(d5478e07dfc484d41865e72becb918e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8d4953c537e4b28148424368cad539') in 0.008441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.167376 seconds.
+  path: Assets/Models/1-0-bow.png
+  artifactKey: Guid(8586399037eb86c4c8f77a4e3bd46cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-0-bow.png using Guid(8586399037eb86c4c8f77a4e3bd46cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ab86cbdbbfead1c67bec868fa75594') in 0.003066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/1-5-Crossbow.png
+  artifactKey: Guid(f079f999e0104ba48a4ba7d0b4e846bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-5-Crossbow.png using Guid(f079f999e0104ba48a4ba7d0b4e846bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4153c206e55777854f44d2b4cb83a8') in 0.002151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Pistol.obj
+  artifactKey: Guid(cb69cd9db829a324fa30dd90728e284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pistol.obj using Guid(cb69cd9db829a324fa30dd90728e284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d3f1eba42508a21de98ce94a78d665') in 0.004097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/sword.obj
+  artifactKey: Guid(1e42f60256f1edd43a7e8501ee65640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sword.obj using Guid(1e42f60256f1edd43a7e8501ee65640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daf766c1a495c2cbd812d216b97d365') in 0.002566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/1-3-sniper.obj
+  artifactKey: Guid(8918bb04206c3ea4e8cb3a03ee048958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-3-sniper.obj using Guid(8918bb04206c3ea4e8cb3a03ee048958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b0e06700f532954d100716fb9a24db') in 0.004860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/1-4.png
+  artifactKey: Guid(c2ab245203b8ad04e9b7e23c96bafe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-4.png using Guid(c2ab245203b8ad04e9b7e23c96bafe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d923a79297d15776ef1005296aa8d6') in 0.002755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 265.798344 seconds.
+  path: Assets/Models/1-3-sniper 1.png
+  artifactKey: Guid(27e899aaf4ef9b74c9046b55570b04c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-3-sniper 1.png using Guid(27e899aaf4ef9b74c9046b55570b04c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ac8fc0d599b0b394aefe2d42bd9182') in 0.004079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 110.359556 seconds.
+  path: Assets/Models/Pistol-4.png
+  artifactKey: Guid(c92fcf32ec8af5b408048d95ac3f4b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pistol-4.png using Guid(c92fcf32ec8af5b408048d95ac3f4b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d231a540caff028842f25bbbdac41e') in 0.002510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.085541 seconds.
+  path: Assets/Models/Sword.png
+  artifactKey: Guid(3d36423f42c0be5468b3466139022734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword.png using Guid(3d36423f42c0be5468b3466139022734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f023bbba78f2820a21512828596440d') in 0.001661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 157.189634 seconds.
+  path: Assets/Models/1-sword.png
+  artifactKey: Guid(0e67f470a926969438a4fc07ebdb34fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-sword.png using Guid(0e67f470a926969438a4fc07ebdb34fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d9d1e486e237b424928c6437f24ba8') in 0.002925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 63.563556 seconds.
+  path: Assets/Models/1-5-Crossbow.obj
+  artifactKey: Guid(123a3706679351b4a921f18262a4cd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/1-5-Crossbow.obj using Guid(123a3706679351b4a921f18262a4cd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1572044462bb5b903a178e7ad214d8a') in 0.002952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 9.346266 seconds.
+  path: Assets/Models/Materials/1-2-rifle.mat
+  artifactKey: Guid(1505ac90963ad914a91fb0aca32fd1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/1-2-rifle.mat using Guid(1505ac90963ad914a91fb0aca32fd1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf65fbffe9d990977699ba1abee94f4') in 0.001895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Materials/1-5-Crossbow.mat
+  artifactKey: Guid(df900bef416d32143b3b398f5b037488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/1-5-Crossbow.mat using Guid(df900bef416d32143b3b398f5b037488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf10b8b0489fe71fd470f594d358eac2') in 0.002367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Materials/1-5-Crossbow 1.mat
+  artifactKey: Guid(632c6cf74b4e79349ad00dca0b2304e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/1-5-Crossbow 1.mat using Guid(632c6cf74b4e79349ad00dca0b2304e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629c537f0d1a6f1906156fabb01b098b') in 0.001448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 255.358999 seconds.
+  path: Assets/Models&Prefabs/Prefabs/1-0-bow.prefab
+  artifactKey: Guid(350555d5167a7594496fd492430dabf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Prefabs/Prefabs/1-0-bow.prefab using Guid(350555d5167a7594496fd492430dabf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65424a59c0830abf94a54b80eadb83c8') in 0.004677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models&Prefabs/Prefabs/1-3-sniper.prefab
+  artifactKey: Guid(c2524f6b84141fb45baa9cd3a94466e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Prefabs/Prefabs/1-3-sniper.prefab using Guid(c2524f6b84141fb45baa9cd3a94466e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386b978832e83678c2432e3a616c538b') in 0.005414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
