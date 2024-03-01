@@ -1,0 +1,1338 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 24527 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Rodger D Vink/Documents/GitHub/Time-Lost/Time Lost
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52568
+Successfully changed project path to: C:/Users/Rodger D Vink/Documents/GitHub/Time-Lost/Time Lost
+C:/Users/Rodger D Vink/Documents/GitHub/Time-Lost/Time Lost
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8208] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1522459095 [EditorId] 1522459095 [Version] 1048832 [Id] WindowsEditor(7,Mi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8208] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1522459095 [EditorId] 1522459095 [Version] 1048832 [Id] WindowsEditor(7,Mi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 26.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rodger D Vink/Documents/GitHub/Time-Lost/Time Lost/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7963 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.061061 seconds.
+- Loaded All Assemblies, in  1.010 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 439 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 2082ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (508ms)
+			TypeCache.Refresh (506ms)
+				TypeCache.ScanAssembly (481ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (707ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.256 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.309 seconds
+Domain Reload Profiling: 2555ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (823ms)
+		LoadAssemblies (634ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1310ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (99ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (713ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (0.8 MB). Loaded Objects now: 5416.
+Memory consumption went from 203.6 MB to 202.8 MB.
+Total: 8.036200 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.601100 ms MarkObjects: 6.286300 ms  DeleteObjects: 0.636400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: aca7125a3389c5f4127a11b74e5e93cb -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 974698ac23c8758bdde15eabb27ab6a8 -> fc915b8c64163b6761e5351aa2c02497
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.918 seconds
+Refreshing native plugins compatible for Editor in 10.49 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.235 seconds
+Domain Reload Profiling: 3141ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (613ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2235ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (972ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (657ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4807 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5420.
+Memory consumption went from 176.2 MB to 175.5 MB.
+Total: 5.129600 ms (FindLiveObjects: 0.439300 ms CreateObjectMapping: 0.222200 ms MarkObjects: 3.933500 ms  DeleteObjects: 0.533300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.271 seconds
+Domain Reload Profiling: 3201ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (596ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (975ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (635ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 8.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4817 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5434.
+Memory consumption went from 176.6 MB to 175.9 MB.
+Total: 7.431600 ms (FindLiveObjects: 0.617200 ms CreateObjectMapping: 0.672700 ms MarkObjects: 5.538300 ms  DeleteObjects: 0.601500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 341776.292060 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidImpactModular.prefab
+  artifactKey: Guid(8b4eab2db0dfb6142999b1df972f633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidImpactModular.prefab using Guid(8b4eab2db0dfb6142999b1df972f633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32efb2248ac7ac0f636a46e29e5a61') in 0.018254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidMissileModular.prefab
+  artifactKey: Guid(fd2dc447a8fe0594f94edc59cc8f04f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidMissileModular.prefab using Guid(fd2dc447a8fe0594f94edc59cc8f04f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe0c58762f451f7d98fc732c9866881') in 0.002745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Acid/AcidMissilePurpleOBJ.prefab
+  artifactKey: Guid(a4034a829f7173e4b98289ddbc4e3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Acid/AcidMissilePurpleOBJ.prefab using Guid(a4034a829f7173e4b98289ddbc4e3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7d60384421232f885287929d3a9cef') in 0.006646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_ring_purple.mat
+  artifactKey: Guid(699200783b324e344aa97cee2655f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_ring_purple.mat using Guid(699200783b324e344aa97cee2655f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca5b9110a8574d8a8593bdc314ce99d') in 0.002201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/BeamUp/BeamUpBlue.prefab
+  artifactKey: Guid(d524d3bd34d46a84fb705d360c6ddec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/BeamUp/BeamUpBlue.prefab using Guid(d524d3bd34d46a84fb705d360c6ddec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e07d3a33cfad1a930c94235c1aace4d') in 0.002466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Textures/atlas_misc_purple.png
+  artifactKey: Guid(1a61aba39b2ecc14198e6469b9060e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/atlas_misc_purple.png using Guid(1a61aba39b2ecc14198e6469b9060e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86fb436b0c074ed2a8968354e89e5a8') in 0.003698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Arsenal/Textures/atlas_misc_blue.png
+  artifactKey: Guid(0cea16a8561c6484086187406b7a2436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/atlas_misc_blue.png using Guid(0cea16a8561c6484086187406b7a2436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2935368cfdd0486e5d368ac26daa9f') in 0.002763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_big_modular_MULTI.mat
+  artifactKey: Guid(8270344e489166847a9ab96309dd202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_big_modular_MULTI.mat using Guid(8270344e489166847a9ab96309dd202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1e3b957b5397354c52cf7a69f7000e') in 0.002311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_misc_modular_ADD.mat
+  artifactKey: Guid(addfc2f400859134e8cf607e2298da25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_misc_modular_ADD.mat using Guid(addfc2f400859134e8cf607e2298da25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423e7391d29c31484919b72e6fe2d6aa') in 0.001782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Fireball Big/BigFireballModular.prefab
+  artifactKey: Guid(37fe7072bebacee49a0d3fb0dc7a7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Fireball Big/BigFireballModular.prefab using Guid(37fe7072bebacee49a0d3fb0dc7a7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1febefb3cb7f835d70903056552236') in 0.003566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450bbf97c10498b4e7961564dfa844c5') in 0.002078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_misc_purple.mat
+  artifactKey: Guid(c85a27cbd401b7b43911ed0515b3fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_misc_purple.mat using Guid(c85a27cbd401b7b43911ed0515b3fb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8c993018b28287031782b549258a84') in 0.001557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_ring_blue.mat
+  artifactKey: Guid(ba57f625cbb7f5744b517182e93b3953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_ring_blue.mat using Guid(ba57f625cbb7f5744b517182e93b3953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8943b3929701ddea5033bd68610ad99') in 0.001433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/BeamUp/BeamUpModular.prefab
+  artifactKey: Guid(7c5a98bca19e0ac4795f66e24920cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/BeamUp/BeamUpModular.prefab using Guid(7c5a98bca19e0ac4795f66e24920cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408d28d0e256d41f02885d1ef4e223d5') in 0.002251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Fireball Big/BigFireballPurple.prefab
+  artifactKey: Guid(24299960a8ec9da42af98b7c98d1be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Fireball Big/BigFireballPurple.prefab using Guid(24299960a8ec9da42af98b7c98d1be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b729e7677e67fbac68e1bc902e478b') in 0.002462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidImpactPurple.prefab
+  artifactKey: Guid(a713b825a8d482a4e9b952821e85ad5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidImpactPurple.prefab using Guid(a713b825a8d482a4e9b952821e85ad5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87965a643ce392e6f1ba3843cfcd0e8') in 0.002782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidMissilePurple.prefab
+  artifactKey: Guid(da3767caea7eb784a9575ff4107aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidMissilePurple.prefab using Guid(da3767caea7eb784a9575ff4107aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3779189d912b3467652755aad07aaf9') in 0.003061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Textures/atlas_big_blue.png
+  artifactKey: Guid(db549574ea44cac43a2bebb9d9b069b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/atlas_big_blue.png using Guid(db549574ea44cac43a2bebb9d9b069b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55191e849fd72857be605debd9612e9') in 0.013717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Textures/atlas_ring_blue.png
+  artifactKey: Guid(56ab11c360c80514b8f12c24cc830a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/atlas_ring_blue.png using Guid(56ab11c360c80514b8f12c24cc830a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30388bcc9c227bf2fb3c88bc15009121') in 0.002216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pixel Arsenal/Textures/atlas_misc_modular.png
+  artifactKey: Guid(0c8dace547153d241bde159017bdf77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/atlas_misc_modular.png using Guid(0c8dace547153d241bde159017bdf77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989fa2e87e774dfde00b5a4c4fe46bf5') in 0.002474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Acid/AcidMissileBlueOBJ.prefab
+  artifactKey: Guid(147d42649c84ab14dbe8dfe5f7499bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Acid/AcidMissileBlueOBJ.prefab using Guid(147d42649c84ab14dbe8dfe5f7499bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aec3119484cc63c58e104a9e46aebac') in 0.005350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_misc_blue.mat
+  artifactKey: Guid(7d2139d2bfa37514b866d7a4e62abc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_misc_blue.mat using Guid(7d2139d2bfa37514b866d7a4e62abc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510fdf70edefe0f2a51706a0ae827c3f') in 0.002243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_misc_modular_MULTI.mat
+  artifactKey: Guid(9bc667b0754caf34b804a2c3cff45a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_misc_modular_MULTI.mat using Guid(9bc667b0754caf34b804a2c3cff45a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493db28ed84a6d13c8e31b077320920a') in 0.001370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.242366 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Pickups/Box/BoxPurple.prefab
+  artifactKey: Guid(5f42969423c337d4987d7264f4077d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Pickups/Box/BoxPurple.prefab using Guid(5f42969423c337d4987d7264f4077d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32ae7fc9c6719e57217347f069d41b6') in 0.001933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Cluster/ClusterExplosionPurple.prefab
+  artifactKey: Guid(35195c929860d404e8fd349a76a4fdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Cluster/ClusterExplosionPurple.prefab using Guid(35195c929860d404e8fd349a76a4fdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec7108bfc1e9e4acd92b748a9e2aa41') in 0.003304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Flamethrower/Fat/FatFlameThrowerPurple.prefab
+  artifactKey: Guid(30891f272fa2b2643a25733e0b1fd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Flamethrower/Fat/FatFlameThrowerPurple.prefab using Guid(30891f272fa2b2643a25733e0b1fd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59209849bb601d2da8e79dc657635967') in 0.002599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c306150052b282ec3c39202b1b7ca736') in 0.006358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Laser Bolt/LaserPurple.prefab
+  artifactKey: Guid(c696d52aa63ab1d4fb866d7d0e3e77cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Laser Bolt/LaserPurple.prefab using Guid(c696d52aa63ab1d4fb866d7d0e3e77cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c825b7edd5bff1394dba508e7deca87a') in 0.002682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Laser Big/MuzzleFlashLaserBigPurple.prefab
+  artifactKey: Guid(a19441ce5fb24644bbe438f28c002831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Laser Big/MuzzleFlashLaserBigPurple.prefab using Guid(a19441ce5fb24644bbe438f28c002831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca44542c0de96ec431d7abd57147f6') in 0.002869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Cluster/ClusterRocketPurple.prefab
+  artifactKey: Guid(58350bb34d78075489dfe796d887a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Cluster/ClusterRocketPurple.prefab using Guid(58350bb34d78075489dfe796d887a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6104c170e2338ee61a6aaa82ade0e68a') in 0.002540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Glitter/GlitterMissilePurpleOBJ.prefab
+  artifactKey: Guid(784e136cdcdacd84485b11db9ddff96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Glitter/GlitterMissilePurpleOBJ.prefab using Guid(784e136cdcdacd84485b11db9ddff96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac6a80641858c470b13a35e0ca025f4') in 0.007569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Cluster/ClusterPurpleOBJ.prefab
+  artifactKey: Guid(95237965bfb2c1c46baadfc72846e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Cluster/ClusterPurpleOBJ.prefab using Guid(95237965bfb2c1c46baadfc72846e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32aa368624e679b1ac0d3a6b06e0b155') in 0.007208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pixel Arsenal/Materials/fire_pixel_purple.mat
+  artifactKey: Guid(2bba10c9b6a71e04199d0916017c5a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/fire_pixel_purple.mat using Guid(2bba10c9b6a71e04199d0916017c5a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a301550b95a9f385d6f76e984f444239') in 0.001383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Glitter/GlitterMissilePurple.prefab
+  artifactKey: Guid(8434c851403c70a438a6e8c8bb47f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Glitter/GlitterMissilePurple.prefab using Guid(8434c851403c70a438a6e8c8bb47f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea99fcd29589a04920843bf47effc38') in 0.002523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Glitter/GlitterImpactPurple.prefab
+  artifactKey: Guid(eee6a8b4fa7c6c641bcd044e61a7852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Glitter/GlitterImpactPurple.prefab using Guid(eee6a8b4fa7c6c641bcd044e61a7852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2872ad01112092da7303cece6fd89af') in 0.002732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Laser Bolt/LaserPurpleOBJ.prefab
+  artifactKey: Guid(5e084ef3fe4a0c545af778bdbaa4413c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Laser Bolt/LaserPurpleOBJ.prefab using Guid(5e084ef3fe4a0c545af778bdbaa4413c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1e44f62fd905519801ca4a5e36688a') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel Arsenal/Materials/laserbeamfat_purple.mat
+  artifactKey: Guid(d5ad26d868e333f4684c67c6da3a7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/laserbeamfat_purple.mat using Guid(d5ad26d868e333f4684c67c6da3a7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afae8536e490efe08d4618dc43df5002') in 0.001815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983e8f5714c10332b13fd6e5407afbf') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Laser Bolt Big/LaserBigPurpleOBJ.prefab
+  artifactKey: Guid(1214d6ff25a074241949b537d89d886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Laser Bolt Big/LaserBigPurpleOBJ.prefab using Guid(1214d6ff25a074241949b537d89d886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1149bdab02b004c435e9b5ff183ea568') in 0.005878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Textures/fire_pixel_purple.png
+  artifactKey: Guid(b3630105c82e1dd40a78f2bfa58aa8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/fire_pixel_purple.png using Guid(b3630105c82e1dd40a78f2bfa58aa8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98155276a7310a0be9cd910e604a5e93') in 0.001567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f330a20541dfd617228fe2bea6563ce9') in 0.001870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel Arsenal/Textures/laserbeam_purple.png
+  artifactKey: Guid(ae2683f2eff5b1a41a4ac7a7444e2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/laserbeam_purple.png using Guid(ae2683f2eff5b1a41a4ac7a7444e2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4355ef740550d3ae685b7b9558e24aba') in 0.001726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e136f6fd67a09abb2ae5e9777ae15555') in 0.001830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Fat Missile/FatMissilePurple.prefab
+  artifactKey: Guid(b6d3117b277f36c48b756be615fb5f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Fat Missile/FatMissilePurple.prefab using Guid(b6d3117b277f36c48b756be615fb5f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a946c7a583d9c4593a8dea9a15d57c7') in 0.002920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Fireball/FireballPurpleOBJ.prefab
+  artifactKey: Guid(a78c621dcfa15bd4fae749ba1fae706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Fireball/FireballPurpleOBJ.prefab using Guid(a78c621dcfa15bd4fae749ba1fae706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858ff26a19d332fe15694bf2840bb475') in 0.006453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Lightning Bolt/LightningBoltImpactPurple.prefab
+  artifactKey: Guid(9f791cf89f719c9438e633403defb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Lightning Bolt/LightningBoltImpactPurple.prefab using Guid(9f791cf89f719c9438e633403defb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175cf5e759fc514eced9a3a6daa9cd2c') in 0.002953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Lightning/LightningMuzzlePurple.prefab
+  artifactKey: Guid(ef0ab8ba033333e4d958a3172cb69c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Lightning/LightningMuzzlePurple.prefab using Guid(ef0ab8ba033333e4d958a3172cb69c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e845b28d22fcb73fd2cee89dee9bae9') in 0.001981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Fat Missile/FatMissilePurpleOBJ.prefab
+  artifactKey: Guid(f834438395eabf548a1987334b341adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Fat Missile/FatMissilePurpleOBJ.prefab using Guid(f834438395eabf548a1987334b341adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b95e7f7213bd32463b52c749dd2444') in 0.006375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.223540 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Liquid/MuzzleFlashLiquidPurple.prefab
+  artifactKey: Guid(ea7f6a37a63900242b82eeabf860f452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Liquid/MuzzleFlashLiquidPurple.prefab using Guid(ea7f6a37a63900242b82eeabf860f452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a61d9748a4f06f029de4b9db39bd43') in 0.002109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Pickups/Explosion/PickupExplosionPurple.prefab
+  artifactKey: Guid(2f9dd379088901847b9108d2e5981dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Pickups/Explosion/PickupExplosionPurple.prefab using Guid(2f9dd379088901847b9108d2e5981dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a332e50c60ea4436bc1cefe38e01806') in 0.002364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Plasma/PlasmaPurpleOBJ.prefab
+  artifactKey: Guid(89ca5ea507a98614aa84711640da55b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Plasma/PlasmaPurpleOBJ.prefab using Guid(89ca5ea507a98614aa84711640da55b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976378a4a7cf9f07b0791a2d5a9b8bff') in 0.007617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Poison/PoisonImpactPurple.prefab
+  artifactKey: Guid(9efff8a312a017b42b21b0036d650cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Poison/PoisonImpactPurple.prefab using Guid(9efff8a312a017b42b21b0036d650cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a18ce534d81d2987daf3e612743a70b') in 0.003367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Nova/NovaPurple.prefab
+  artifactKey: Guid(5e40863c46ca0c14597dca5b3aba43ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Nova/NovaPurple.prefab using Guid(5e40863c46ca0c14597dca5b3aba43ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdeb02594f2fcbc3c5e8964a18f89cf3') in 0.003774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Round/MuzzleFlashRoundPurple.prefab
+  artifactKey: Guid(a7a27a74f6c71364698d8341a263daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/MuzzleFlash/Round/MuzzleFlashRoundPurple.prefab using Guid(a7a27a74f6c71364698d8341a263daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3668d54a1f9e4168b9532a8e31eebd1f') in 0.002321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Pickups/Orb/OrbPurple.prefab
+  artifactKey: Guid(37f9bd31d6102794b856335cd0994599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Pickups/Orb/OrbPurple.prefab using Guid(37f9bd31d6102794b856335cd0994599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94e406355e9c9bad0548742e3e407e9') in 0.002300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.700843 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Poison/PoisonMissilePurpleOBJ.prefab
+  artifactKey: Guid(4501b45d42d12624a9aa3b10a03a92d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Poison/PoisonMissilePurpleOBJ.prefab using Guid(4501b45d42d12624a9aa3b10a03a92d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f24872ad90aaa7d338936f85910d9cc') in 0.007019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Arsenal/Demo/Materials/Skybox/PurpleSkybox.mat
+  artifactKey: Guid(eae4da572696be0409bce4b6e04a3e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Materials/Skybox/PurpleSkybox.mat using Guid(eae4da572696be0409bce4b6e04a3e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483009f1bee1db86beaf434938fac8af') in 0.002673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Materials/Trails/purpletrail.mat
+  artifactKey: Guid(c6358a74919c1f64c89e2293238f19f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/Trails/purpletrail.mat using Guid(c6358a74919c1f64c89e2293238f19f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be630fac36f7539d3de34e6b29976044') in 0.001851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Textures/Trails/purpletrail.png
+  artifactKey: Guid(ca6de54134d3afb4cb79b1d093fd133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Textures/Trails/purpletrail.png using Guid(ca6de54134d3afb4cb79b1d093fd133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee890ad47891e6a677e2d432449d9b74') in 0.002040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Beams/FatLaserBeam/PurpleFatLaserStart.prefab
+  artifactKey: Guid(34ed30a4f8c117e41b1a06f361f17e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Beams/FatLaserBeam/PurpleFatLaserStart.prefab using Guid(34ed30a4f8c117e41b1a06f361f17e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464ecb073342e658b30930a1ca956476') in 0.003733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Regenerate/RegeneratePurple.prefab
+  artifactKey: Guid(3428fd79a06013241940ff9cca692c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Regenerate/RegeneratePurple.prefab using Guid(3428fd79a06013241940ff9cca692c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5be6ae31a6a89f868fac8d952812162') in 0.003074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Beams/FatLaserBeam/PurpleFatLaserEnd.prefab
+  artifactKey: Guid(17a39c2bf6a421e4fbfc2d6df553078b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Beams/FatLaserBeam/PurpleFatLaserEnd.prefab using Guid(17a39c2bf6a421e4fbfc2d6df553078b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decaab803bb238cb5185037aadbefa29') in 0.002498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.258714 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Rocket/RocketExplosionPurple.prefab
+  artifactKey: Guid(acf5e9f93b47ba54ba2aca8603b1ef9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Rocket/RocketExplosionPurple.prefab using Guid(acf5e9f93b47ba54ba2aca8603b1ef9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14640033ef216e338be905b1bcac7fa2') in 0.003270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Symbol/SymbolExplosionPurple.prefab
+  artifactKey: Guid(af256c061b8da174a9cb11eb59a1a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Symbol/SymbolExplosionPurple.prefab using Guid(af256c061b8da174a9cb11eb59a1a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903fc33241364720c12cc21c5a620ced') in 0.003862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Sparkle/SparkleMissilePurpleOBJ.prefab
+  artifactKey: Guid(7f4d2b7836fcd0e4aa35c18a400ecf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Sparkle/SparkleMissilePurpleOBJ.prefab using Guid(7f4d2b7836fcd0e4aa35c18a400ecf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ca001a5f53b1505240c2c49ae947ef') in 0.007820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Sparkle/SparkleMissilePurple.prefab
+  artifactKey: Guid(18302445418a3d04aa3d8d4815ae9f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Sparkle/SparkleMissilePurple.prefab using Guid(18302445418a3d04aa3d8d4815ae9f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f239c57bc48ae7c407932ffe531573') in 0.002716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Rocket/RocketPurple.prefab
+  artifactKey: Guid(a42fb76af6cb33646be6633428f143cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Rocket/RocketPurple.prefab using Guid(a42fb76af6cb33646be6633428f143cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9318c556b81075bd639bbb32676ce77') in 0.003454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Magic Symbol/SymbolMissilePurpleOBJ.prefab
+  artifactKey: Guid(e111553001d2eb840bfda45b62c8d768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Prefabs/Projectiles/Magic Symbol/SymbolMissilePurpleOBJ.prefab using Guid(e111553001d2eb840bfda45b62c8d768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7394b827a772619c27a803b7971025') in 0.005338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dd847567797accd0fc78b5ac9c2563') in 0.003033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Fire/Round/RoundFirePurple.prefab
+  artifactKey: Guid(76bc5bc2c3afe3c44af8ee72092b3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Fire/Round/RoundFirePurple.prefab using Guid(76bc5bc2c3afe3c44af8ee72092b3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477b8aa191b7e4a5ff39b90c3038a61b') in 0.002652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a1b1f643ed5bb294b139732a6f42dd') in 0.005512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b3c0bcb82c200b782affaed8d113e7') in 0.002614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Sparkle/SparkleExplosionPurple.prefab
+  artifactKey: Guid(4514898663fbb0148a8a2179f728db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Sparkle/SparkleExplosionPurple.prefab using Guid(4514898663fbb0148a8a2179f728db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e3663bbacbde3120ecbe71b58c7672') in 0.002614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 12.429616 seconds.
+  path: Assets/Pixel Arsenal/Demo/Materials/pixelrow.mat
+  artifactKey: Guid(c1a546de119dce44794d05aad53cad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Materials/pixelrow.mat using Guid(c1a546de119dce44794d05aad53cad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e390efd4860b55d0f690b3edc930d1') in 0.001671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.470674 seconds.
+  path: Assets/Pixel Arsenal/Demo/Scenes/3.unity
+  artifactKey: Guid(639003f7fb1b41a4c846c78ddbc36276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Scenes/3.unity using Guid(639003f7fb1b41a4c846c78ddbc36276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc089d8ef13b89c5b58361fe87e4c12d') in 0.000728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Pixel Arsenal/Demo/Scenes/8.unity
+  artifactKey: Guid(db87ab2f2773c3a4484799fac0b798b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Scenes/8.unity using Guid(db87ab2f2773c3a4484799fac0b798b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5798710ef7b89eb2183d8f4e1b37178d') in 0.000709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Pixel Arsenal/Demo/Scenes/6.unity
+  artifactKey: Guid(9d5ce22cd55c8c94ebe3804829b185e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Scenes/6.unity using Guid(9d5ce22cd55c8c94ebe3804829b185e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d753821f5f08b0a2d8ac8e57ea95ea2') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pixel Arsenal/Sound/AcidExplosion.wav
+  artifactKey: Guid(4238107f1d0e9f046a0636a942b51d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Sound/AcidExplosion.wav using Guid(4238107f1d0e9f046a0636a942b51d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e814babf95e78418d2bd30ac768ee5d7') in 0.001410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidMissileYellow.prefab
+  artifactKey: Guid(18a7acbfd8948814bbe8d59238ebba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidMissileYellow.prefab using Guid(18a7acbfd8948814bbe8d59238ebba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3758d6fa3409c1606ef4402aed75a430') in 0.003744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel Arsenal/Demo/Scenes/4.unity
+  artifactKey: Guid(806adebcce1629741b94047cdf4ca61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Demo/Scenes/4.unity using Guid(806adebcce1629741b94047cdf4ca61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64424daa0e2060fb7c6f3b037b8b7509') in 0.000766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidImpactGreen.prefab
+  artifactKey: Guid(340e086ee1a0d2748ab058ba3023b8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Prefabs/Projectiles/Acid/AcidImpactGreen.prefab using Guid(340e086ee1a0d2748ab058ba3023b8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47216352f726e66b4128db9f82434311') in 0.003329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.011754 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e494ac533846aa9e7748d55e26bbc2') in 0.001401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013610 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1307d6ea2256de95dc87ef644e01f8d8') in 0.002105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb05be0c689a079a294f2d7758f283f') in 0.001546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.299672 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0564e898fdb1593bdc3ac4dfe75d265d') in 0.001881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dc3207ee4601257ac39a4610d33de4') in 0.017341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e3f724b95d20c1c6066b2a0523face') in 0.003793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.898626 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_big_yellow.mat
+  artifactKey: Guid(f1e7f04ae471a944881a92f681979e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_big_yellow.mat using Guid(f1e7f04ae471a944881a92f681979e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e455d2836086f8d97e5c90f5caa87027') in 0.001506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.034931 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_misc_yellow.mat
+  artifactKey: Guid(a005bc7169fc609459f83bd2dc6db1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_misc_yellow.mat using Guid(a005bc7169fc609459f83bd2dc6db1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8b8fa4b159de9178986ecbd579433f') in 0.001556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_retro_AB.mat
+  artifactKey: Guid(52d867d0feb9a7f4789c5f3ef6e20b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_retro_AB.mat using Guid(52d867d0feb9a7f4789c5f3ef6e20b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa340b5f6c85db72167bc349ceb57fb') in 0.002063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_ring_red.mat
+  artifactKey: Guid(e5e8b90f8f4803f4daba590e6bc7f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_ring_red.mat using Guid(e5e8b90f8f4803f4daba590e6bc7f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e748c4a0d9f5fd3745b83f939ef9ffce') in 0.001626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/atlas_ring_yellow.mat
+  artifactKey: Guid(a55909e67f0e0d244b3e498b361ee789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/atlas_ring_yellow.mat using Guid(a55909e67f0e0d244b3e498b361ee789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0976fece969d5b6f86ee9bd7e0bd6d45') in 0.001791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Arsenal/Materials/explosion_cloud_lowres.mat
+  artifactKey: Guid(f1b57b6b9a479874491fad0f717133aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/explosion_cloud_lowres.mat using Guid(f1b57b6b9a479874491fad0f717133aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4ed1cce1608a1fcab336a0ee77a62') in 0.001863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Arsenal/Materials/fire_pixel_modular.mat
+  artifactKey: Guid(559e9bb6707b2fb4fbbbcb83e3c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/fire_pixel_modular.mat using Guid(559e9bb6707b2fb4fbbbcb83e3c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d7c4e8f4734f0e56d3c165c6913b0') in 0.001317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pixel Arsenal/Materials/explosion_cloud_modular.mat
+  artifactKey: Guid(8402b2a0f2ab3534393c904b204f5f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/explosion_cloud_modular.mat using Guid(8402b2a0f2ab3534393c904b204f5f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1dc5b15c22df47bd7a28001b9fcb8c') in 0.001426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel Arsenal/Materials/fire_pixel_retro_AB.mat
+  artifactKey: Guid(8ed90e27f4cd46147a29e2f389e99a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/fire_pixel_retro_AB.mat using Guid(8ed90e27f4cd46147a29e2f389e99a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3fedd3853eb4338f3c87e47303a3d1') in 0.001220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/fire_pixel_retro_ADD.mat
+  artifactKey: Guid(a88c0672a25b9c04aae0b95bd5ed5446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/fire_pixel_retro_ADD.mat using Guid(a88c0672a25b9c04aae0b95bd5ed5446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f8141bae4c48065214fb211cd410a5') in 0.002020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Arsenal/Materials/laserbeam_modular.mat
+  artifactKey: Guid(33b0a98beeba2654a8fced16aa6c8c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/laserbeam_modular.mat using Guid(33b0a98beeba2654a8fced16aa6c8c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6959a1de132f68e3c2791717f8933361') in 0.001873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Arsenal/Materials/laserbeam_green.mat
+  artifactKey: Guid(2a3d0b568a199a84994bbfaa3b5a0d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/laserbeam_green.mat using Guid(2a3d0b568a199a84994bbfaa3b5a0d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa582bf75e65d2f363bcf26833118f8') in 0.001569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Arsenal/Materials/laserbeamfat_blue.mat
+  artifactKey: Guid(58097566ecde3ac4d8e3c2e1e6eada0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/laserbeamfat_blue.mat using Guid(58097566ecde3ac4d8e3c2e1e6eada0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cabeb5ab3a80c10b24a9a011898816') in 0.001761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel Arsenal/Materials/laserbeamfat_green.mat
+  artifactKey: Guid(1749128d9fa4b654db12b9aecc753e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/laserbeamfat_green.mat using Guid(1749128d9fa4b654db12b9aecc753e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771e85a066324ed0bda67019c44c95b5') in 0.001725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Arsenal/Materials/laserbeamfat_red.mat
+  artifactKey: Guid(908955c1d49b3d54b9fd012902c2b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/laserbeamfat_red.mat using Guid(908955c1d49b3d54b9fd012902c2b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e200abcac0c5add469d69afb941861b6') in 0.001879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pixel Arsenal/Materials/powerup_health.mat
+  artifactKey: Guid(37e4b7aa394c6c343b21b4e68465c60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/powerup_health.mat using Guid(37e4b7aa394c6c343b21b4e68465c60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e7ae0c8b653555397f0fefa59c564a') in 0.002163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Arsenal/Materials/powerup_energy.mat
+  artifactKey: Guid(2bcbf15d5438e6849b8b592be75384bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Arsenal/Materials/powerup_energy.mat using Guid(2bcbf15d5438e6849b8b592be75384bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f8c020a16dbf8540c88181aadf3bad') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.916 seconds
+Refreshing native plugins compatible for Editor in 10.68 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.129 seconds
+Domain Reload Profiling: 3032ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (613ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (992ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (643ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 7.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4817 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.9 MB). Loaded Objects now: 5442.
+Memory consumption went from 177.2 MB to 176.3 MB.
+Total: 5.033400 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.227100 ms MarkObjects: 3.832000 ms  DeleteObjects: 0.540000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Rodger D Vink\Documents\GitHub\Time-Lost\Time Lost\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.339 seconds
+Domain Reload Profiling: 3146ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (552ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (117ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (673ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 8.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4817 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.7 MB). Loaded Objects now: 5446.
+Memory consumption went from 177.0 MB to 176.3 MB.
+Total: 6.491100 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.327500 ms MarkObjects: 5.160000 ms  DeleteObjects: 0.485500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

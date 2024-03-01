@@ -11,6 +11,9 @@ scopes = {
 	"last_search.310DEAF1" = "colla"
 	"OpenInspectorPreview.310DEAF1" = "0"
 	"currentGroup.310DEAF1" = "all"
+	"last_search.0E0DE4CF" = "*.mat"
+	"OpenInspectorPreview.0E0DE4CF" = "0"
+	"currentGroup.0E0DE4CF" = "all"
 }
 providers = {
 	find = {
